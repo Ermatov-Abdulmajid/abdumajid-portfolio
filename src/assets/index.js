@@ -26,16 +26,13 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-<<<<<<< HEAD
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import estate from "./estate.png";
-=======
 import estate from "./estate.png";
 import aiwriter from "./aiwriter.jpg";
 import gameHub from "./game hub.jpg";
->>>>>>> bcfd4ef (Commit all the changes)
 
 export {
   logo,
@@ -63,14 +60,11 @@ export {
   shopify,
   starbucks,
   tesla,
-<<<<<<< HEAD
   carrent,
   jobit,
   tripguide,
   estate,
-=======
   estate,
   aiwriter,
   gameHub
->>>>>>> bcfd4ef (Commit all the changes)
 };
