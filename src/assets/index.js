@@ -26,10 +26,6 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-import estate from "./estate.png";
 import estate from "./estate.png";
 import aiwriter from "./aiwriter.jpg";
 import gameHub from "./game hub.jpg";
@@ -60,10 +56,6 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
-  estate,
   estate,
   aiwriter,
   gameHub
