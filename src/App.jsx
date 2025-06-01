@@ -1,6 +1,10 @@
 import { BrowserRouter } from "react-router-dom";
 
+<<<<<<< HEAD
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+=======
+import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+>>>>>>> bcfd4ef (Commit all the changes)
 
 const App = () => {
   return (
@@ -14,7 +18,10 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
+<<<<<<< HEAD
         <Feedbacks />
+=======
+>>>>>>> bcfd4ef (Commit all the changes)
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />

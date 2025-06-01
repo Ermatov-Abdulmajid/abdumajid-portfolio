@@ -10,6 +10,7 @@ import {
   reactjs,
   redux,
   tailwind,
+<<<<<<< HEAD
   nodejs,
   mongodb,
   git,
@@ -20,6 +21,13 @@ import {
   tripguide,
   threejs,
   estate,
+=======
+  git,
+  figma,
+  estate,
+  gameHub,
+  aiwriter
+>>>>>>> bcfd4ef (Commit all the changes)
 } from "../assets";
 
 export const navLinks = [
@@ -131,6 +139,7 @@ const technologies = [
   },
 ];
 
+<<<<<<< HEAD
 const testimonials = [
   {
     testimonial:
@@ -163,13 +172,28 @@ const projects = [
     name: "Car Rent",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+=======
+
+const projects = [
+  {
+    name: "AI Writer – GPT-Based Writing Assistant",
+    description:
+      `This app helps users write articles based on title and description inputs.",
+      "Built with REACTJS, OpenAI API, TailwindCSS, and shadcn/UI.",
+      "Implemented end-to-end (E2E) testing to ensure app reliability.",
+      "Supports multiple writing styles and offers a seamless user experience.`,
+>>>>>>> bcfd4ef (Commit all the changes)
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
+<<<<<<< HEAD
         name: "mongodb",
+=======
+        name: "OpenAI",
+>>>>>>> bcfd4ef (Commit all the changes)
         color: "green-text-gradient",
       },
       {
@@ -177,6 +201,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+<<<<<<< HEAD
     image: carrent,
     source_code_link: "https://github.com/",
   },
@@ -184,6 +209,16 @@ const projects = [
     name: "Job IT",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+=======
+    image: aiwriter,
+    source_code_link: "https://github.com/Ermatov-Abdulmajid/ai-writer",
+  },
+  {
+    name: "Game Hub – Game Discovery Platform",
+    description:
+      `Fetched game data from RAWG API with many animations using shadcn components.",
+      "Implemented genre filtering, sorting, and reusable components`,
+>>>>>>> bcfd4ef (Commit all the changes)
     tags: [
       {
         name: "react",
@@ -194,6 +229,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
+<<<<<<< HEAD
         name: "scss",
         color: "pink-text-gradient",
       },
@@ -225,3 +261,38 @@ const projects = [
 ];
 
 export { services, technologies, experiences, testimonials, projects };
+=======
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gameHub,
+    source_code_link: "https://github.com/Ermatov-Abdulmajid/game-hub",
+  },
+  {
+    name: "Estate – Real Estate Website",
+    description:
+      `Built using HTML, CSS, and JavaScript based on a Figma design mockup.",
+      "Developed key pages like Home, Listings, About, and Contact with clean structure and smooth navigation",
+      "Designed and implemented a fully responsive layout compatible with both desktop and mobile devices.`,
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: estate,
+    source_code_link: "https://github.com/Ermatov-Abdulmajid/Estate",
+  },
+];
+
+export { services, technologies, experiences, projects };
+>>>>>>> bcfd4ef (Commit all the changes)
